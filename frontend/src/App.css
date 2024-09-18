@@ -1,0 +1,110 @@
+.loginForm {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Soft shadow */
+  align-items: center;
+  margin: 1em auto; /* Center horizontally and space from top */
+  text-align: left;
+  padding: 2em; 
+  padding-bottom: 10px;
+  background-color: aliceblue;
+  color: #121212; /* Light text color */
+  border: 1px solid #333; /* Slightly lighter border */
+  width: 80%;
+  max-width: 800px; /* Ensure form doesn’t stretch too wide */
+  border-radius: 8px; /* Rounded corners */
+}
+.transparent {
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    }
+
+#log-btn{
+    margin-right:30px ;
+}
+
+.validationAlert{
+color: red;
+}
+
+#btn-logout{
+    margin-left: 10px;
+    display:none ;
+}
+
+#Profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+#Profile1{
+    margin: 10px 10px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(234, 182, 182, 0.2);
+  align-items: center;
+  margin: 0.5rex;
+  text-align: center;
+  font-family: arial;
+  padding: 1  em; 
+  padding-bottom: 10px;
+  background-color:azure;
+  color: #191818;
+  border: 1px solid #191818;
+  height: 100%;
+}
+.card-link {
+  text-decoration: none;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+.container{
+  height:700px;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #e0e0e0; /* Light text color */
+  background-color: #0a0a0a; /* Green background */
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 5px;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+.card button:hover {
+  opacity: 0.7;
+}
+
+.grid {
+  max-width: 1300px; /* Ensure grid doesn’t stretch too wide */
+  margin: 0 auto; /* Center horizontally */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); /* Responsive columns */
+  gap: 0.2em; /* Space between grid items */
+  padding: 1em; /* Padding around the grid */
+} 
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: url('https://images.unsplash.com/photo-1522071246221-c76214fc07d7') no-repeat center center fixed; 
+  background-size: cover; /* Cover the entire viewport */ 
+  color: #070707; /* Light text color for contrast */
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
